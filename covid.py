@@ -95,19 +95,9 @@ if 'total_vaccinations' in df.columns:
         plt.ylabel('% Vaccinated')
         plt.show()
 
-# 6. (Optional) Choropleth Map
-# Uncomment below if you want to use plotly and have iso_code column
-# import plotly.express as px
-# latest = df.sort_values('date').groupby('location').tail(1)
-# fig = px.choropleth(latest, locations='iso_code', color='total_cases',
-#                     hover_name='location', color_continuous_scale='Reds',
-#                     title='Total COVID-19 Cases by Country (Latest)')
-# fig.show()
 
-# 7. Insights (to be written in markdown in your notebook)
-# Example:
-# - India had the highest total cases among the selected countries.
-# - The USA had the fastest vaccine rollout.
-# - Kenya's death rate remained lower than the global average.
+
+
+
 
 
